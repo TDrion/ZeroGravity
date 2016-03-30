@@ -1,0 +1,96 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans ms;
+    background-image: url("http://www.axsysnav.eu/wp-content/uploads/2014/07/space1.jpg");
+    color: white;
+/*    text-align: center;*/
+}
+
+#container
+{
+    background-color: black;
+    width: 1000px;
+    height: 1600px;
+    border: 2px solid white;
+    margin: 10px auto;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+#Logo
+{
+    width: 100px;
+}
+
+nav
+{
+    color: black;
+    background-color: black;
+    height: 2em;
+    display: block;
+    width: 1020px;
+    position: fixed;
+    transition-property: top;
+    transition-duration: 500ms;
+    top: 0;
+    margin-left: -12px;
+    border: 2px solid white;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: auto;
+    padding: 0 2em;
+    overflow: hidden;    
+}
+
+nav ul li
+{
+    float: left;
+    padding: auto;
+}
+
+nav ul li:hover
+{
+    background-color: white;
+    font-size: 24.5px;
+    color: black;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    padding: 5px;
+}
+
+nav ul li a:hover
+{
+    color: black;
+}
+
+main
+{
+    margin: 2em 4em;
+}
+
+main img
+{
+    width: 40%
+}
+
+img
+{
+    size: 250px;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+footer
+{
+    text-align: center;
+}
