@@ -90,6 +90,23 @@ img
     border: 1px solid white;
 }
 
+#contact
+{
+    background-color: white;
+    font-size: 12px;
+    color: black;
+    width: 250px;
+    display: block;
+    border-radius: 0%;
+}
+
+#checkbox
+{
+    text-align: center;
+    margin: 10px auto;
+    margin-left: 50px;
+}
+
 footer
 {
     text-align: center;
