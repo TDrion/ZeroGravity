@@ -87,7 +87,6 @@ img
 {
     size: 250px;
     display: inline-block;
-    border: 1px solid white;
 }
 
 #contact
@@ -156,12 +155,17 @@ body {
 }
 
 .inhoud {
-    margin: 20px;
-    margin-left: 420px;
-    margin-right: 400px;
+    margin: 150px;
+    margin-left: 410px;
+    margin-right: 410px;
     padding: 20px 20px 10px 20px;
     border-radius: 50px;
-    background: linear-gradient(red, white, white, blue);
+    border: 2px solid white;
+    background-color: black;
+}
+
+.boxes {
+    margin-left: 150px;
 }
 
 .validator
